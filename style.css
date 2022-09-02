@@ -2,4 +2,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 body{
     font-family: 'Fira Mono', monospace;
+    margin-left: 80px;
+    margin-right: 80px; 
+}
+.main{
+
+}
+/* first section  */
+.top-section{
+    display: flex;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 1160px;
+    height: 646px;
+    margin-bottom: 50px;
+
+}
+.top-section h1{
+    font-size: 70px;
+    
+}
+.top-title{
+    width: 50%;
+    padding-left: 100px;
+}
+.top-title button{
+    font-weight: 800;
+    background-color: #fa4747;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: aliceblue;
+
+}
+.top-image{
+    width: 50%;
+}
+.top-image img{
+    height: 646px;
+    width: 461px;
+    top: 83px;
+}
+/* article section  */
+.saidbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    /* padding: 25px; */
+    background-color: rgb(34, 33, 33);
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+}
+.saidbar button{
+    font-weight: 800;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    margin-top: 20px;
+}
+/* news section  */
+.article{
+    display: flex;
+}
+.news-letter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:75px;
+}
+.news{
+    height: 362px;
+    width: 240px;
+}
+.news img{
+    height: 175px;
+    width: 250px;
+}
+/* footer section*/
+footer{
+    /* height: 150px; */
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+   
 }
